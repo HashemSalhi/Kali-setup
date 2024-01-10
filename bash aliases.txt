@@ -1,0 +1,10 @@
+alias c='clear'
+alias cat_rec='find ./ -type f | xargs cat'		#cat all files in the current directory and its subdirectories. (Recursively)
+alias strings_rec='find ./ -type f | xargs strings'		#strings all files in the current directory and its subdirectories.(Recursively)
+alias vpn-htb='sudo openvpn --config /home/C3TUS/HTB.ovpn'
+alias vpn-thm='sudo openvpn --config /home/C3TUS/THM.ovpn'
+alias aslr_off='echo 0 | sudo tee /proc/sys/kernel/randomize_va_space'
+alias aslr_on='echo 1 | sudo tee /proc/sys/kernel/randomize_va_space'
+alias l='ls -lart'
+alias h="history"
+alias bye="exit"
