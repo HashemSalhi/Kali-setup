@@ -8,3 +8,5 @@ alias aslr_on='echo 1 | sudo tee /proc/sys/kernel/randomize_va_space'
 alias l='ls -lart'
 alias h="history"
 alias bye="exit"
+alias vol2='python2 /home/C3TUS/Tools/volatility/vol.py'
+alias vol3='python3 /home/C3TUS/Tools/volatility3/vol.py'
